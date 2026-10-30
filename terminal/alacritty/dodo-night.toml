@@ -1,0 +1,70 @@
+# Dodo Night — Cool slate plumage after sundown.
+# https://github.com/chrisnicholson30/dodo-theme
+
+[colors.primary]
+background = "#1b1c21"
+foreground = "#e0e2ea"
+dim_foreground = "#808599"
+bright_foreground = "#f4f5f9"
+
+[colors.cursor]
+cursor = "#8fa6ee"
+text = "#1b1c21"
+
+[colors.vi_mode_cursor]
+cursor = "#f0c27b"
+text = "#1b1c21"
+
+[colors.selection]
+background = "#394056"
+text = "#e0e2ea"
+
+[colors.search.matches]
+background = "#665640"
+foreground = "#e0e2ea"
+
+[colors.search.focused_match]
+background = "#8fa6ee"
+foreground = "#1b1c21"
+
+[colors.footer_bar]
+background = "#16171b"
+foreground = "#e0e2ea"
+
+[colors.hints.start]
+background = "#f0c27b"
+foreground = "#1b1c21"
+
+[colors.hints.end]
+background = "#292b32"
+foreground = "#e0e2ea"
+
+[colors.normal]
+black = "#33363f"
+red = "#f07c7c"
+green = "#a2d39b"
+yellow = "#f0c27b"
+blue = "#8fa6ee"
+magenta = "#c8a6f2"
+cyan = "#6ccfc2"
+white = "#d4d7e1"
+
+[colors.bright]
+black = "#666c7f"
+red = "#f79b9b"
+green = "#bbe3b4"
+yellow = "#f7d69b"
+blue = "#adbff8"
+magenta = "#dac0f7"
+cyan = "#92e0d6"
+white = "#f4f5f9"
+
+[colors.dim]
+black = "#2b2d34"
+red = "#a55a5c"
+green = "#739370"
+yellow = "#a5885c"
+blue = "#6676a6"
+magenta = "#8b76a9"
+cyan = "#50908a"
+white = "#93969e"

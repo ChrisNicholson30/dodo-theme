@@ -1,0 +1,26 @@
+# Dodo Dusk — Warm charcoal & Claude coral — the original.
+name: Dodo Dusk
+accent: '#d97757'
+cursor: '#d97757'
+background: '#262624'
+foreground: '#ebe7de'
+details: darker
+terminal_colors:
+  normal:
+    black: '#3b3a36'
+    red: '#e57a6c'
+    green: '#a9c58b'
+    yellow: '#e8b96e'
+    blue: '#93a8e6'
+    magenta: '#c5a3ea'
+    cyan: '#7ec6b7'
+    white: '#d9d4c9'
+  bright:
+    black: '#706b62'
+    red: '#f0948a'
+    green: '#bfd8a3'
+    yellow: '#f3cd8d'
+    blue: '#afc0f2'
+    magenta: '#d8bdf3'
+    cyan: '#9edbcf'
+    white: '#f6f3ec'

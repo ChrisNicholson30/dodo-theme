@@ -1,0 +1,70 @@
+# Dodo Obsidian — Near-black volcanic glass, lit by a single amber ember.
+# https://github.com/chrisnicholson30/dodo-theme
+
+[colors.primary]
+background = "#111111"
+foreground = "#e4e1da"
+dim_foreground = "#78756e"
+bright_foreground = "#f5f2eb"
+
+[colors.cursor]
+cursor = "#eda157"
+text = "#111111"
+
+[colors.vi_mode_cursor]
+cursor = "#f2d8a7"
+text = "#111111"
+
+[colors.selection]
+background = "#4a3623"
+text = "#e4e1da"
+
+[colors.search.matches]
+background = "#605746"
+foreground = "#e4e1da"
+
+[colors.search.focused_match]
+background = "#eda157"
+foreground = "#111111"
+
+[colors.footer_bar]
+background = "#0c0c0c"
+foreground = "#e4e1da"
+
+[colors.hints.start]
+background = "#f2d8a7"
+foreground = "#111111"
+
+[colors.hints.end]
+background = "#201f1e"
+foreground = "#e4e1da"
+
+[colors.normal]
+black = "#262624"
+red = "#ec7b6f"
+green = "#a6d6a0"
+yellow = "#f0c070"
+blue = "#8fb0e6"
+magenta = "#cfa3e0"
+cyan = "#8ecfc5"
+white = "#d5d1c9"
+
+[colors.bright]
+black = "#625f59"
+red = "#f49a90"
+green = "#c0e6bb"
+yellow = "#f6d391"
+blue = "#adc6f0"
+magenta = "#e0bdec"
+cyan = "#ade0d9"
+white = "#f5f2eb"
+
+[colors.dim]
+black = "#1f1f1d"
+red = "#9f564e"
+green = "#72916e"
+yellow = "#a2834f"
+blue = "#63789b"
+magenta = "#8c7098"
+cyan = "#628c86"
+white = "#908e89"

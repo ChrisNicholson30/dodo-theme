@@ -1,0 +1,43 @@
+# Dodo Dusk — Warm charcoal & Claude coral — the original.
+[colors]
+foreground = "#ebe7de"
+background = "#262624"
+cursor_bg = "#d97757"
+cursor_fg = "#262624"
+cursor_border = "#d97757"
+selection_fg = "#ebe7de"
+selection_bg = "#553b31"
+scrollbar_thumb = "#343330"
+split = "#33322f"
+compose_cursor = "#e8b96e"
+ansi = ["#3b3a36", "#e57a6c", "#a9c58b", "#e8b96e", "#93a8e6", "#c5a3ea", "#7ec6b7", "#d9d4c9"]
+brights = ["#706b62", "#f0948a", "#bfd8a3", "#f3cd8d", "#afc0f2", "#d8bdf3", "#9edbcf", "#f6f3ec"]
+
+[colors.tab_bar]
+background = "#1a1918"
+inactive_tab_edge = "#33322f"
+
+[colors.tab_bar.active_tab]
+bg_color = "#262624"
+fg_color = "#ebe7de"
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#1f1e1d"
+fg_color = "#8c877c"
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = "#343330"
+fg_color = "#ebe7de"
+
+[colors.tab_bar.new_tab]
+bg_color = "#1a1918"
+fg_color = "#8c877c"
+
+[colors.tab_bar.new_tab_hover]
+bg_color = "#343330"
+fg_color = "#ebe7de"
+
+[metadata]
+name = "Dodo Dusk"
+author = "Chris Nicholson"
+origin_url = "https://github.com/chrisnicholson30/dodo-theme"

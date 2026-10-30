@@ -1,0 +1,26 @@
+# Dodo Mist — Cool sea-fog grey with slate-feather ink.
+name: Dodo Mist
+accent: '#4d63b3'
+cursor: '#4d63b3'
+background: '#f7f8fa'
+foreground: '#23262e'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#2e323c'
+    red: '#c23a3a'
+    green: '#367a42'
+    yellow: '#9c620c'
+    blue: '#4a59c2'
+    magenta: '#8445b5'
+    cyan: '#0f7882'
+    white: '#cfd3db'
+  bright:
+    black: '#6e7486'
+    red: '#d65252'
+    green: '#469656'
+    yellow: '#bb7f1a'
+    blue: '#6375d6'
+    magenta: '#a061cf'
+    cyan: '#1b96a1'
+    white: '#eceef2'
