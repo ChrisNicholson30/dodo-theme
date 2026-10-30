@@ -1,0 +1,43 @@
+# Dodo Mist — Cool sea-fog grey with slate-feather ink.
+[colors]
+foreground = "#23262e"
+background = "#f7f8fa"
+cursor_bg = "#4d63b3"
+cursor_fg = "#f7f8fa"
+cursor_border = "#4d63b3"
+selection_fg = "#23262e"
+selection_bg = "#d5daec"
+scrollbar_thumb = "#e8ebef"
+split = "#d9dde4"
+compose_cursor = "#a85a0e"
+ansi = ["#2e323c", "#c23a3a", "#367a42", "#9c620c", "#4a59c2", "#8445b5", "#0f7882", "#cfd3db"]
+brights = ["#6e7486", "#d65252", "#469656", "#bb7f1a", "#6375d6", "#a061cf", "#1b96a1", "#eceef2"]
+
+[colors.tab_bar]
+background = "#e5e7eb"
+inactive_tab_edge = "#d9dde4"
+
+[colors.tab_bar.active_tab]
+bg_color = "#f7f8fa"
+fg_color = "#23262e"
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#eef0f3"
+fg_color = "#6e7486"
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = "#e8ebef"
+fg_color = "#23262e"
+
+[colors.tab_bar.new_tab]
+bg_color = "#e5e7eb"
+fg_color = "#6e7486"
+
+[colors.tab_bar.new_tab_hover]
+bg_color = "#e8ebef"
+fg_color = "#23262e"
+
+[metadata]
+name = "Dodo Mist"
+author = "Chris Nicholson"
+origin_url = "https://github.com/chrisnicholson30/dodo-theme"

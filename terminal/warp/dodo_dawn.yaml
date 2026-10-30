@@ -1,0 +1,26 @@
+# Dodo Dawn — Ivory paper and terracotta at first light.
+name: Dodo Dawn
+accent: '#c15f3c'
+cursor: '#c15f3c'
+background: '#faf9f5'
+foreground: '#2a2925'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#3a3833'
+    red: '#c4392b'
+    green: '#4b7a29'
+    yellow: '#9a6408'
+    blue: '#3d5ca8'
+    magenta: '#8447be'
+    cyan: '#1c7a6e'
+    white: '#cfcabd'
+  bright:
+    black: '#7a766c'
+    red: '#d9573f'
+    green: '#5f9636'
+    yellow: '#b97f16'
+    blue: '#5376c4'
+    magenta: '#9e62d6'
+    cyan: '#2b978a'
+    white: '#e9e5da'

@@ -1,0 +1,26 @@
+# Dodo Night — Cool slate plumage after sundown.
+# https://github.com/chrisnicholson30/dodo-theme
+
+palette = 0=#33363f
+palette = 1=#f07c7c
+palette = 2=#a2d39b
+palette = 3=#f0c27b
+palette = 4=#8fa6ee
+palette = 5=#c8a6f2
+palette = 6=#6ccfc2
+palette = 7=#d4d7e1
+palette = 8=#666c7f
+palette = 9=#f79b9b
+palette = 10=#bbe3b4
+palette = 11=#f7d69b
+palette = 12=#adbff8
+palette = 13=#dac0f7
+palette = 14=#92e0d6
+palette = 15=#f4f5f9
+background = #1b1c21
+foreground = #e0e2ea
+cursor-color = #8fa6ee
+cursor-text = #1b1c21
+selection-background = #394056
+selection-foreground = #e0e2ea
+split-divider-color = #2a2c33

@@ -1,0 +1,26 @@
+# Dodo Mist — Cool sea-fog grey with slate-feather ink.
+# https://github.com/chrisnicholson30/dodo-theme
+
+palette = 0=#2e323c
+palette = 1=#c23a3a
+palette = 2=#367a42
+palette = 3=#9c620c
+palette = 4=#4a59c2
+palette = 5=#8445b5
+palette = 6=#0f7882
+palette = 7=#cfd3db
+palette = 8=#6e7486
+palette = 9=#d65252
+palette = 10=#469656
+palette = 11=#bb7f1a
+palette = 12=#6375d6
+palette = 13=#a061cf
+palette = 14=#1b96a1
+palette = 15=#eceef2
+background = #f7f8fa
+foreground = #23262e
+cursor-color = #4d63b3
+cursor-text = #f7f8fa
+selection-background = #d5daec
+selection-foreground = #23262e
+split-divider-color = #d9dde4

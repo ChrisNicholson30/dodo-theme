@@ -1,0 +1,43 @@
+# Dodo Night — Cool slate plumage after sundown.
+[colors]
+foreground = "#e0e2ea"
+background = "#1b1c21"
+cursor_bg = "#8fa6ee"
+cursor_fg = "#1b1c21"
+cursor_border = "#8fa6ee"
+selection_fg = "#e0e2ea"
+selection_bg = "#394056"
+scrollbar_thumb = "#292b32"
+split = "#2a2c33"
+compose_cursor = "#f0c27b"
+ansi = ["#33363f", "#f07c7c", "#a2d39b", "#f0c27b", "#8fa6ee", "#c8a6f2", "#6ccfc2", "#d4d7e1"]
+brights = ["#666c7f", "#f79b9b", "#bbe3b4", "#f7d69b", "#adbff8", "#dac0f7", "#92e0d6", "#f4f5f9"]
+
+[colors.tab_bar]
+background = "#121316"
+inactive_tab_edge = "#2a2c33"
+
+[colors.tab_bar.active_tab]
+bg_color = "#1b1c21"
+fg_color = "#e0e2ea"
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#16171b"
+fg_color = "#808599"
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = "#292b32"
+fg_color = "#e0e2ea"
+
+[colors.tab_bar.new_tab]
+bg_color = "#121316"
+fg_color = "#808599"
+
+[colors.tab_bar.new_tab_hover]
+bg_color = "#292b32"
+fg_color = "#e0e2ea"
+
+[metadata]
+name = "Dodo Night"
+author = "Chris Nicholson"
+origin_url = "https://github.com/chrisnicholson30/dodo-theme"

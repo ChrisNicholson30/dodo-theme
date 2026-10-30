@@ -1,0 +1,70 @@
+# Dodo Mist — Cool sea-fog grey with slate-feather ink.
+# https://github.com/chrisnicholson30/dodo-theme
+
+[colors.primary]
+background = "#f7f8fa"
+foreground = "#23262e"
+dim_foreground = "#6e7486"
+bright_foreground = "#eceef2"
+
+[colors.cursor]
+cursor = "#4d63b3"
+text = "#f7f8fa"
+
+[colors.vi_mode_cursor]
+cursor = "#a85a0e"
+text = "#f7f8fa"
+
+[colors.selection]
+background = "#d5daec"
+text = "#23262e"
+
+[colors.search.matches]
+background = "#dbc1a7"
+foreground = "#23262e"
+
+[colors.search.focused_match]
+background = "#4d63b3"
+foreground = "#f7f8fa"
+
+[colors.footer_bar]
+background = "#eef0f3"
+foreground = "#23262e"
+
+[colors.hints.start]
+background = "#a85a0e"
+foreground = "#f7f8fa"
+
+[colors.hints.end]
+background = "#e8ebef"
+foreground = "#23262e"
+
+[colors.normal]
+black = "#2e323c"
+red = "#c23a3a"
+green = "#367a42"
+yellow = "#9c620c"
+blue = "#4a59c2"
+magenta = "#8445b5"
+cyan = "#0f7882"
+white = "#cfd3db"
+
+[colors.bright]
+black = "#6e7486"
+red = "#d65252"
+green = "#469656"
+yellow = "#bb7f1a"
+blue = "#6375d6"
+magenta = "#a061cf"
+cyan = "#1b96a1"
+white = "#eceef2"
+
+[colors.dim]
+black = "#74777e"
+red = "#d57c7d"
+green = "#7aa682"
+yellow = "#bc965f"
+blue = "#8791d6"
+magenta = "#ac84cd"
+cyan = "#60a5ac"
+white = "#dde0e6"

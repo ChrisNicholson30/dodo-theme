@@ -1,0 +1,26 @@
+# Dodo Night — Cool slate plumage after sundown.
+name: Dodo Night
+accent: '#8fa6ee'
+cursor: '#8fa6ee'
+background: '#1b1c21'
+foreground: '#e0e2ea'
+details: darker
+terminal_colors:
+  normal:
+    black: '#33363f'
+    red: '#f07c7c'
+    green: '#a2d39b'
+    yellow: '#f0c27b'
+    blue: '#8fa6ee'
+    magenta: '#c8a6f2'
+    cyan: '#6ccfc2'
+    white: '#d4d7e1'
+  bright:
+    black: '#666c7f'
+    red: '#f79b9b'
+    green: '#bbe3b4'
+    yellow: '#f7d69b'
+    blue: '#adbff8'
+    magenta: '#dac0f7'
+    cyan: '#92e0d6'
+    white: '#f4f5f9'

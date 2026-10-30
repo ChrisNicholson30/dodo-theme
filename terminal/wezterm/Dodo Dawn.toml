@@ -1,0 +1,43 @@
+# Dodo Dawn — Ivory paper and terracotta at first light.
+[colors]
+foreground = "#2a2925"
+background = "#faf9f5"
+cursor_bg = "#c15f3c"
+cursor_fg = "#faf9f5"
+cursor_border = "#c15f3c"
+selection_fg = "#2a2925"
+selection_bg = "#efdad0"
+scrollbar_thumb = "#ebe8df"
+split = "#e0dccf"
+compose_cursor = "#9a6408"
+ansi = ["#3a3833", "#c4392b", "#4b7a29", "#9a6408", "#3d5ca8", "#8447be", "#1c7a6e", "#cfcabd"]
+brights = ["#7a766c", "#d9573f", "#5f9636", "#b97f16", "#5376c4", "#9e62d6", "#2b978a", "#e9e5da"]
+
+[colors.tab_bar]
+background = "#ebe8df"
+inactive_tab_edge = "#e0dccf"
+
+[colors.tab_bar.active_tab]
+bg_color = "#faf9f5"
+fg_color = "#2a2925"
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#f3f1ea"
+fg_color = "#7a766c"
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = "#ebe8df"
+fg_color = "#2a2925"
+
+[colors.tab_bar.new_tab]
+bg_color = "#ebe8df"
+fg_color = "#7a766c"
+
+[colors.tab_bar.new_tab_hover]
+bg_color = "#ebe8df"
+fg_color = "#2a2925"
+
+[metadata]
+name = "Dodo Dawn"
+author = "Chris Nicholson"
+origin_url = "https://github.com/chrisnicholson30/dodo-theme"

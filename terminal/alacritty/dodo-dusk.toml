@@ -1,0 +1,70 @@
+# Dodo Dusk — Warm charcoal & Claude coral — the original.
+# https://github.com/chrisnicholson30/dodo-theme
+
+[colors.primary]
+background = "#262624"
+foreground = "#ebe7de"
+dim_foreground = "#8c877c"
+bright_foreground = "#f6f3ec"
+
+[colors.cursor]
+cursor = "#d97757"
+text = "#262624"
+
+[colors.vi_mode_cursor]
+cursor = "#e8b96e"
+text = "#262624"
+
+[colors.selection]
+background = "#553b31"
+text = "#ebe7de"
+
+[colors.search.matches]
+background = "#6a593e"
+foreground = "#ebe7de"
+
+[colors.search.focused_match]
+background = "#d97757"
+foreground = "#262624"
+
+[colors.footer_bar]
+background = "#1f1e1d"
+foreground = "#ebe7de"
+
+[colors.hints.start]
+background = "#e8b96e"
+foreground = "#262624"
+
+[colors.hints.end]
+background = "#343330"
+foreground = "#ebe7de"
+
+[colors.normal]
+black = "#3b3a36"
+red = "#e57a6c"
+green = "#a9c58b"
+yellow = "#e8b96e"
+blue = "#93a8e6"
+magenta = "#c5a3ea"
+cyan = "#7ec6b7"
+white = "#d9d4c9"
+
+[colors.bright]
+black = "#706b62"
+red = "#f0948a"
+green = "#bfd8a3"
+yellow = "#f3cd8d"
+blue = "#afc0f2"
+magenta = "#d8bdf3"
+cyan = "#9edbcf"
+white = "#f6f3ec"
+
+[colors.dim]
+black = "#343330"
+red = "#a25d53"
+green = "#7b8d67"
+yellow = "#a48654"
+blue = "#6d7aa2"
+magenta = "#8d77a5"
+cyan = "#5f8e84"
+white = "#9a978f"

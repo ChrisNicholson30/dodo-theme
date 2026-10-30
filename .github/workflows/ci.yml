@@ -1,0 +1,30 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - name: Generated files are in sync with src/palette.py
+        run: |
+          python3 src/build.py --check
+          git diff --exit-code -- zed terminal xcode assets/term
+      - name: Shellcheck
+        run: shellcheck -x -s bash install.sh update.sh uninstall.sh lib/dodo.sh
+      - name: Install → update → uninstall round-trip in a scratch HOME
+        run: |
+          export HOME="$(mktemp -d)"
+          mkdir -p "$HOME/.config/ghostty" "$HOME/.config/kitty" "$HOME/.local/share/zed"
+          ./install.sh --all --yes --apply --no-auto-update
+          test -L "$HOME/.local/share/zed/extensions/installed/dodo-theme"
+          ./update.sh --check || [ $? -eq 10 ]
+          ./uninstall.sh --yes
+          test -z "$(find "$HOME" -type l)"
