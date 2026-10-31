@@ -78,7 +78,7 @@ def terminal_app(v: Variant) -> bytes:
         "FontAntialias": True,
         "FontWidthSpacing": 1.0,
         "FontHeightSpacing": 1.1,
-        "CursorType": 2,
+        "CursorType": 0,  # Block cursor.
         "CursorBlink": True,
         "UseBrightBold": True,
         "columnCount": 120,
