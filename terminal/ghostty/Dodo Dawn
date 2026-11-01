@@ -1,26 +1,26 @@
-# Dodo Dawn — Ivory paper and terracotta at first light.
+# Dodo Dawn — Pale limestone and olive ink at first light.
 # https://github.com/chrisnicholson30/dodo-theme
 
-palette = 0=#3a3833
-palette = 1=#c4392b
-palette = 2=#4b7a29
-palette = 3=#9a6408
-palette = 4=#3d5ca8
-palette = 5=#8447be
-palette = 6=#1c7a6e
-palette = 7=#cfcabd
-palette = 8=#7a766c
-palette = 9=#d9573f
-palette = 10=#5f9636
-palette = 11=#b97f16
-palette = 12=#5376c4
-palette = 13=#9e62d6
-palette = 14=#2b978a
-palette = 15=#e9e5da
-background = #faf9f5
-foreground = #2a2925
-cursor-color = #c15f3c
-cursor-text = #faf9f5
-selection-background = #efdad0
-selection-foreground = #2a2925
-split-divider-color = #e0dccf
+palette = 0=#353d30
+palette = 1=#b54e43
+palette = 2=#537341
+palette = 3=#8d681e
+palette = 4=#4e6792
+palette = 5=#815e9e
+palette = 6=#347479
+palette = 7=#cbd0bf
+palette = 8=#687160
+palette = 9=#bd5549
+palette = 10=#5a7948
+palette = 11=#906d22
+palette = 12=#547197
+palette = 13=#8b669e
+palette = 14=#3b7b79
+palette = 15=#e8ebdf
+background = #f6f4ed
+foreground = #2c3029
+cursor-color = #5e7447
+cursor-text = #f6f4ed
+selection-background = #d8dacc
+selection-foreground = #2c3029
+split-divider-color = #d4d9c8

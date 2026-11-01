@@ -16,10 +16,11 @@ const page = await browser.newPage({ deviceScaleFactor: 2, viewport: { width: 12
 for (const f of pages) {
   await page.goto("file://" + join(dir, f));
   await page.waitForLoadState("networkidle");
-  const fullPage = f.startsWith("icons") || f.startsWith("banner");
+  const fullPage = f.startsWith("icons") || f.startsWith("banner") || f.startsWith("palettes");
   if (fullPage) await page.setViewportSize({ width: 1600, height: 800 });
   else await page.setViewportSize({ width: 1280, height: 800 });
-  await page.screenshot({ path: join(dir, f.replace(/\.html$/, ".png")), fullPage });
+  const target = fullPage ? page.locator("body") : page;
+  await target.screenshot({ path: join(dir, f.replace(/\.html$/, ".png")) });
   console.log("shot", f);
 }
 await browser.close();

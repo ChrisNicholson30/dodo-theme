@@ -1,70 +1,70 @@
-# Dodo Dusk — Warm charcoal & Claude coral — the original.
+# Dodo Dusk — Warm graphite and lagoon teal as the island settles.
 # https://github.com/chrisnicholson30/dodo-theme
 
 [colors.primary]
-background = "#262624"
-foreground = "#ebe7de"
-dim_foreground = "#8c877c"
-bright_foreground = "#f6f3ec"
+background = "#272b29"
+foreground = "#e4e7de"
+dim_foreground = "#929d90"
+bright_foreground = "#f2f4ec"
 
 [colors.cursor]
-cursor = "#d97757"
-text = "#262624"
+cursor = "#83b8a6"
+text = "#272b29"
 
 [colors.vi_mode_cursor]
-cursor = "#e8b96e"
-text = "#262624"
+cursor = "#dfbd82"
+text = "#272b29"
 
 [colors.selection]
-background = "#553b31"
-text = "#ebe7de"
+background = "#3f504a"
+text = "#e4e7de"
 
 [colors.search.matches]
-background = "#6a593e"
-foreground = "#ebe7de"
+background = "#675e48"
+foreground = "#e4e7de"
 
 [colors.search.focused_match]
-background = "#d97757"
-foreground = "#262624"
+background = "#83b8a6"
+foreground = "#272b29"
 
 [colors.footer_bar]
-background = "#1f1e1d"
-foreground = "#ebe7de"
+background = "#202321"
+foreground = "#e4e7de"
 
 [colors.hints.start]
-background = "#e8b96e"
-foreground = "#262624"
+background = "#dfbd82"
+foreground = "#272b29"
 
 [colors.hints.end]
-background = "#343330"
-foreground = "#ebe7de"
+background = "#373c37"
+foreground = "#e4e7de"
 
 [colors.normal]
-black = "#3b3a36"
-red = "#e57a6c"
-green = "#a9c58b"
-yellow = "#e8b96e"
-blue = "#93a8e6"
-magenta = "#c5a3ea"
-cyan = "#7ec6b7"
-white = "#d9d4c9"
+black = "#3a413b"
+red = "#db8b83"
+green = "#b5c98d"
+yellow = "#dfbd82"
+blue = "#96b4dd"
+magenta = "#c5acd9"
+cyan = "#83b8a6"
+white = "#cfd6cb"
 
 [colors.bright]
-black = "#706b62"
-red = "#f0948a"
-green = "#bfd8a3"
-yellow = "#f3cd8d"
-blue = "#afc0f2"
-magenta = "#d8bdf3"
-cyan = "#9edbcf"
-white = "#f6f3ec"
+black = "#929d90"
+red = "#eba59c"
+green = "#cadba8"
+yellow = "#efd3a0"
+blue = "#b2caec"
+magenta = "#dac3e8"
+cyan = "#a3d0bf"
+white = "#f2f4ec"
 
 [colors.dim]
-black = "#343330"
-red = "#a25d53"
-green = "#7b8d67"
-yellow = "#a48654"
-blue = "#6d7aa2"
-magenta = "#8d77a5"
-cyan = "#5f8e84"
-white = "#9a978f"
+black = "#333935"
+red = "#9c6964"
+green = "#83926a"
+yellow = "#9f8a63"
+blue = "#6f849e"
+magenta = "#8e7f9b"
+cyan = "#63877a"
+white = "#949a92"

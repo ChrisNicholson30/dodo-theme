@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import html
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -20,7 +21,7 @@ sys.path.insert(0, str(HERE))
 from pygments.lexers import TypeScriptLexer  # noqa: E402
 from pygments.token import Token  # noqa: E402
 
-from colors import alpha, flatten  # noqa: E402
+from colors import alpha, flatten, mix  # noqa: E402
 from palette import VARIANTS, Variant  # noqa: E402
 
 OUT = ROOT / "assets" / "previews"
@@ -59,7 +60,7 @@ TREE = [
     (1, "folder_green", "tests", False),
     (1, "folder_purple", "assets", False),
     (1, "folder_gray", "node_modules", False),
-    (1, "claude", "CLAUDE.md", False),
+    (1, "agent", "AGENTS.md", False),
     (1, "readme", "README.md", False),
     (1, "package", "package.json", False),
     (1, "tsconfig", "tsconfig.json", False),
@@ -110,8 +111,8 @@ def tok_color(v: Variant, ttype, text: str, nxt: str, prev: str) -> tuple[str, b
     return v.ui["text"], False
 
 
-def highlight(v: Variant) -> list[str]:
-    toks = list(TypeScriptLexer().get_tokens(CODE))
+def highlight(v: Variant, code: str = CODE) -> list[str]:
+    toks = list(TypeScriptLexer().get_tokens(code))
     lines, cur = [], ""
     for i, (tt, text) in enumerate(toks):
         nxt = toks[i + 1][1] if i + 1 < len(toks) else ""
@@ -203,7 +204,7 @@ body{{width:1280px;height:800px;background:{st["background"]};font:13px/1 "Inter
 .ln{{width:30px;text-align:right;margin-right:22px;font-size:12.5px}}
 .cur{{display:inline-block;width:2px;height:17px;vertical-align:-3px;margin-left:-1px}}
 .term{{height:190px;background:{st["terminal.background"]};border-top:1px solid {st["border"]};font:13px/20px "JetBrains Mono",monospace;padding:8px 16px;color:{st["terminal.foreground"]}}}
-.term .tbar{{font:12px "Inter";color:{u["muted"]};margin-bottom:6px;display:flex;gap:14px}}
+.term .tbar{{font:12px "Inter",system-ui,sans-serif;color:{u["muted"]};margin-bottom:6px;display:flex;gap:14px}}
 .sw{{display:inline-block;width:34px;height:14px;margin-right:4px;border-radius:3px}}
 .status{{height:26px;background:{st["status_bar.background"]};border-top:1px solid {st["border"]};display:flex;align-items:center;padding:0 12px;gap:16px;color:{u["muted"]};font-size:12px}}
 .pill{{padding:2px 8px;border-radius:4px;background:{st["vim.normal.background"]};color:{st["vim.normal.foreground"]};font-weight:600;font-size:11px}}
@@ -243,11 +244,96 @@ section{{padding:22px 26px}} h2{{font:600 18px Inter;margin-bottom:14px}} h2 em{
 </style></head><body>{"".join(cols)}</body></html>'''
 
 
+def palette_sheet() -> str:
+    cards = []
+    for v in VARIANTS:
+        u, s = v.ui, v.syntax
+        swatches = "".join(
+            f'<div class="swatch"><i style="background:{c}"></i><span>{name}</span>'
+            f'<code>{c}</code></div>' for name, c in [
+                ("Accent", v.accent), ("Canvas", u["base"]),
+                ("Functions", s["function"]), ("Types", s["type"]),
+                ("Strings", s["string"]), ("Comments", s["comment"]),
+            ])
+        sample = "\n".join(highlight(v, '''/** At home on the island. */
+export class Dodo {
+  readonly home = "Mauritius";
+  readonly feathers = 42;
+
+  waddle(steps: number): string {
+    return `steps: ${steps}`;
+  }
+}
+'''))
+        cards.append(f'<section style="background:{u["base"]};color:{u["text"]};'
+                     f'border-color:{u["border"]}"><h2 style="color:{v.accent}">{v.name}</h2>'
+                     f'<p style="color:{u["subtext"]}">{v.tagline}</p><div class="swatches">{swatches}</div>'
+                     f'<pre>{sample}</pre></section>')
+    return '''<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0}body{width:1600px;padding:36px;background:#e6e9e3;
+color:#293229;font:14px system-ui,sans-serif}header{display:flex;align-items:center;gap:20px;margin-bottom:28px}
+header img{width:66px;height:72px;object-fit:contain}h1{font-size:32px;letter-spacing:-1px}
+header p{margin-top:5px;color:#52604e}.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+section{padding:22px 18px;border:1px solid;border-radius:10px;overflow:hidden}h2{font-size:21px}
+section p{font-size:13px;line-height:1.6;min-height:64px;margin-top:10px}.swatches{display:grid;gap:10px;margin:10px 0 24px}
+.swatch{display:flex;align-items:center;gap:8px;font-size:12px}.swatch i{width:18px;height:18px;
+border-radius:4px;box-shadow:inset 0 0 0 1px #88888844}.swatch code{margin-left:auto;font-size:11px}
+pre{font:10px/1.9 "SFMono-Regular",monospace;white-space:pre-wrap;overflow-wrap:anywhere}
+</style></head><body><header><img src="../dodo.png" alt="Dodo"><div><h1>The island palette</h1>
+<p>Five quiet canvases. Lagoon teal, feather blue, sand gold, olive and sea fog.</p></div></header>
+<div class="cards">''' + "".join(cards) + "</div></body></html>"
+
+
+def ansi_html(text: str) -> str:
+    """Render the SGR subset used by the generated 24-bit terminal art."""
+    chunks, styles, pos = [], {}, 0
+    for match in re.finditer(r"\x1b\[([0-9;]*)m", text):
+        chunks.append(f'<span style="{";".join(f"{k}:{v}" for k, v in styles.items())}">'
+                      f'{html.escape(text[pos:match.start()])}</span>')
+        codes = [int(c) for c in match[1].split(";") if c]
+        if not codes or codes == [0]:
+            styles.clear()
+        elif codes[0] in (38, 48) and len(codes) == 5 and codes[1] == 2:
+            styles["color" if codes[0] == 38 else "background"] = f'rgb({codes[2]},{codes[3]},{codes[4]})'
+        elif codes == [49]:
+            styles.pop("background", None)
+        pos = match.end()
+    chunks.append(html.escape(text[pos:]))
+    return "".join(chunks)
+
+
+def banner_mock(mode: str) -> str:
+    v = VARIANTS[0]
+    grey = "grey-" if mode == "uninstall" else ""
+    art = (ROOT / f"assets/term/dodo-{grey}24bit.ans").read_text().splitlines()
+    word = (ROOT / f"assets/term/wordmark-{grey}24bit.ans").read_text().splitlines()
+    title = "A theme suite for Zed · Terminal · Xcode" if mode == "install" else "Going extinct… (on this machine only)"
+    subtitle = "five variants · three dark · two light" if mode == "install" else "Your own configs stay yours. Only Dodo leaves."
+    right = [""] * 4 + word + ["", title, subtitle]
+    bird_width = int((ROOT / "assets/term/WIDTH").read_text())
+    lines = [ansi_html(art[i] if i < len(art) else " " * bird_width) + "   "
+             + ansi_html(right[i] if i < len(right) else "") for i in range(max(len(art), len(right)))]
+    if mode == "install":
+        detail = "".join(f'<div style="color:{a.accent if a.is_dark else mix(a.accent, v.ui["text"], 0.55)}"><b>{a.name}</b>'
+                         f'<span style="color:{v.ui["subtext"]}">  {a.tagline}</span></div>' for a in VARIANTS)
+        detail += '<p>./install.sh &nbsp; · &nbsp; ./update.sh &nbsp; · &nbsp; ./uninstall.sh</p>'
+    else:
+        detail = '<b>The dodo has left the building.</b><p>Missed it already? ./install.sh brings it back from extinction.</p>'
+    return f'''<!doctype html><html><head><meta charset="utf-8"><style>
+*{{box-sizing:border-box;margin:0}}body{{width:1600px;padding:36px;background:{v.ui["base"]};
+color:{v.ui["text"]};font:17px/1.6 Menlo,monospace}}
+pre{{font:17px/20px Menlo,monospace;margin-bottom:30px}}p{{color:{v.ui["muted"]};margin-top:18px}}
+</style></head><body><pre>{"\n".join(lines)}</pre><div>{detail}</div></body></html>'''
+
+
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     for v in VARIANTS:
         (OUT / f"zed-{v.slug}.html").write_text(zed_mock(v))
     (OUT / "icons.html").write_text(icon_sheet())
+    (OUT / "palettes.html").write_text(palette_sheet())
+    for mode in ("install", "uninstall"):
+        (OUT / f"banner-{mode}.html").write_text(banner_mock(mode))
     print(f"wrote previews to {OUT}")
 
 

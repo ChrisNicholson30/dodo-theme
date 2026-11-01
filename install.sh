@@ -156,12 +156,12 @@ main() {
   dark="${dark:-$(pref_get dark "")}"
   light="${light:-$(pref_get light "")}"
   if [ -z "$dark" ] && interactive; then
-    note "Dusk — warm charcoal & Claude coral   Night — cool slate   Obsidian — near-black, amber-lit"
+    note "Dusk — graphite & lagoon teal   Night — blue slate   Obsidian — volcanic black & sand gold"
     # shellcheck disable=SC2086
     dark="$(choose "Favourite dark variant?" Dusk $DODO_DARK_VARIANTS)"
   fi
   if [ -z "$light" ] && interactive; then
-    note "Dawn — ivory & terracotta   Mist — cool grey & slate ink"
+    note "Dawn — limestone & olive ink   Mist — sea-fog grey & coastal blue"
     # shellcheck disable=SC2086
     light="$(choose "Favourite light variant?" Dawn $DODO_LIGHT_VARIANTS)"
   fi

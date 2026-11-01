@@ -1,41 +1,41 @@
-# Dodo Mist — Cool sea-fog grey with slate-feather ink.
+# Dodo Mist — Sea-fog grey with blue-grey coastal ink.
 [colors]
-foreground = "#23262e"
-background = "#f7f8fa"
-cursor_bg = "#4d63b3"
-cursor_fg = "#f7f8fa"
-cursor_border = "#4d63b3"
-selection_fg = "#23262e"
-selection_bg = "#d5daec"
-scrollbar_thumb = "#e8ebef"
-split = "#d9dde4"
-compose_cursor = "#a85a0e"
-ansi = ["#2e323c", "#c23a3a", "#367a42", "#9c620c", "#4a59c2", "#8445b5", "#0f7882", "#cfd3db"]
-brights = ["#6e7486", "#d65252", "#469656", "#bb7f1a", "#6375d6", "#a061cf", "#1b96a1", "#eceef2"]
+foreground = "#29323a"
+background = "#f2f5f6"
+cursor_bg = "#4b7088"
+cursor_fg = "#f2f5f6"
+cursor_border = "#4b7088"
+selection_fg = "#29323a"
+selection_bg = "#d1dae0"
+scrollbar_thumb = "#e1e9ec"
+split = "#ccdbe0"
+compose_cursor = "#966627"
+ansi = ["#303e48", "#b44f51", "#47734e", "#966627", "#4b7088", "#835d9d", "#2a7775", "#c7d3d9"]
+brights = ["#65717b", "#ba5559", "#4f7a56", "#977027", "#53778e", "#8c659e", "#317e7b", "#e5edf0"]
 
 [colors.tab_bar]
-background = "#e5e7eb"
-inactive_tab_edge = "#d9dde4"
+background = "#dfe6e8"
+inactive_tab_edge = "#ccdbe0"
 
 [colors.tab_bar.active_tab]
-bg_color = "#f7f8fa"
-fg_color = "#23262e"
+bg_color = "#f2f5f6"
+fg_color = "#29323a"
 
 [colors.tab_bar.inactive_tab]
-bg_color = "#eef0f3"
-fg_color = "#6e7486"
+bg_color = "#e9eff0"
+fg_color = "#65717b"
 
 [colors.tab_bar.inactive_tab_hover]
-bg_color = "#e8ebef"
-fg_color = "#23262e"
+bg_color = "#e1e9ec"
+fg_color = "#29323a"
 
 [colors.tab_bar.new_tab]
-bg_color = "#e5e7eb"
-fg_color = "#6e7486"
+bg_color = "#dfe6e8"
+fg_color = "#65717b"
 
 [colors.tab_bar.new_tab_hover]
-bg_color = "#e8ebef"
-fg_color = "#23262e"
+bg_color = "#e1e9ec"
+fg_color = "#29323a"
 
 [metadata]
 name = "Dodo Mist"

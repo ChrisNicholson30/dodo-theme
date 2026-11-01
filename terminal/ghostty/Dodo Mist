@@ -1,26 +1,26 @@
-# Dodo Mist — Cool sea-fog grey with slate-feather ink.
+# Dodo Mist — Sea-fog grey with blue-grey coastal ink.
 # https://github.com/chrisnicholson30/dodo-theme
 
-palette = 0=#2e323c
-palette = 1=#c23a3a
-palette = 2=#367a42
-palette = 3=#9c620c
-palette = 4=#4a59c2
-palette = 5=#8445b5
-palette = 6=#0f7882
-palette = 7=#cfd3db
-palette = 8=#6e7486
-palette = 9=#d65252
-palette = 10=#469656
-palette = 11=#bb7f1a
-palette = 12=#6375d6
-palette = 13=#a061cf
-palette = 14=#1b96a1
-palette = 15=#eceef2
-background = #f7f8fa
-foreground = #23262e
-cursor-color = #4d63b3
-cursor-text = #f7f8fa
-selection-background = #d5daec
-selection-foreground = #23262e
-split-divider-color = #d9dde4
+palette = 0=#303e48
+palette = 1=#b44f51
+palette = 2=#47734e
+palette = 3=#966627
+palette = 4=#4b7088
+palette = 5=#835d9d
+palette = 6=#2a7775
+palette = 7=#c7d3d9
+palette = 8=#65717b
+palette = 9=#ba5559
+palette = 10=#4f7a56
+palette = 11=#977027
+palette = 12=#53778e
+palette = 13=#8c659e
+palette = 14=#317e7b
+palette = 15=#e5edf0
+background = #f2f5f6
+foreground = #29323a
+cursor-color = #4b7088
+cursor-text = #f2f5f6
+selection-background = #d1dae0
+selection-foreground = #29323a
+split-divider-color = #ccdbe0

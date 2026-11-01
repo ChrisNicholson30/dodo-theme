@@ -280,6 +280,6 @@ name = "Dodo"
 version = "{version}"
 schema_version = 1
 authors = ["Chris Nicholson"]
-description = "Dodo — five quiet, rich themes (Dusk, Night, Obsidian, Dawn, Mist) with matching file icons. Claude Dark at heart."
+description = "Dodo — five island-inspired themes (Dusk, Night, Obsidian, Dawn, Mist) with quiet mineral surfaces and matching file icons."
 repository = "https://github.com/chrisnicholson30/dodo-theme"
 '''

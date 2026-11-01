@@ -1,70 +1,70 @@
-# Dodo Dawn — Ivory paper and terracotta at first light.
+# Dodo Dawn — Pale limestone and olive ink at first light.
 # https://github.com/chrisnicholson30/dodo-theme
 
 [colors.primary]
-background = "#faf9f5"
-foreground = "#2a2925"
-dim_foreground = "#7a766c"
-bright_foreground = "#e9e5da"
+background = "#f6f4ed"
+foreground = "#2c3029"
+dim_foreground = "#687160"
+bright_foreground = "#e8ebdf"
 
 [colors.cursor]
-cursor = "#c15f3c"
-text = "#faf9f5"
+cursor = "#5e7447"
+text = "#f6f4ed"
 
 [colors.vi_mode_cursor]
-cursor = "#9a6408"
-text = "#faf9f5"
+cursor = "#8d681e"
+text = "#f6f4ed"
 
 [colors.selection]
-background = "#efdad0"
-text = "#2a2925"
+background = "#d8dacc"
+text = "#2c3029"
 
 [colors.search.matches]
-background = "#d8c5a2"
-foreground = "#2a2925"
+background = "#d1c3a5"
+foreground = "#2c3029"
 
 [colors.search.focused_match]
-background = "#c15f3c"
-foreground = "#faf9f5"
+background = "#5e7447"
+foreground = "#f6f4ed"
 
 [colors.footer_bar]
-background = "#f3f1ea"
-foreground = "#2a2925"
+background = "#eeece3"
+foreground = "#2c3029"
 
 [colors.hints.start]
-background = "#9a6408"
-foreground = "#faf9f5"
+background = "#8d681e"
+foreground = "#f6f4ed"
 
 [colors.hints.end]
-background = "#ebe8df"
-foreground = "#2a2925"
+background = "#e7e8dc"
+foreground = "#2c3029"
 
 [colors.normal]
-black = "#3a3833"
-red = "#c4392b"
-green = "#4b7a29"
-yellow = "#9a6408"
-blue = "#3d5ca8"
-magenta = "#8447be"
-cyan = "#1c7a6e"
-white = "#cfcabd"
+black = "#353d30"
+red = "#b54e43"
+green = "#537341"
+yellow = "#8d681e"
+blue = "#4e6792"
+magenta = "#815e9e"
+cyan = "#347479"
+white = "#cbd0bf"
 
 [colors.bright]
-black = "#7a766c"
-red = "#d9573f"
-green = "#5f9636"
-yellow = "#b97f16"
-blue = "#5376c4"
-magenta = "#9e62d6"
-cyan = "#2b978a"
-white = "#e9e5da"
+black = "#687160"
+red = "#bd5549"
+green = "#5a7948"
+yellow = "#906d22"
+blue = "#547197"
+magenta = "#8b669e"
+cyan = "#3b7b79"
+white = "#e8ebdf"
 
 [colors.dim]
-black = "#7d7c77"
-red = "#d77c72"
-green = "#88a670"
-yellow = "#bc985b"
-blue = "#7f93c3"
-magenta = "#ad85d1"
-cyan = "#6aa69d"
-white = "#dedad1"
+black = "#797d72"
+red = "#cc887e"
+green = "#8ca07d"
+yellow = "#b29966"
+blue = "#8998b2"
+magenta = "#aa92ba"
+cyan = "#78a1a2"
+white = "#daddcf"

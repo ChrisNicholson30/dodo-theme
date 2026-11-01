@@ -1,70 +1,70 @@
-# Dodo Night — Cool slate plumage after sundown.
+# Dodo Night — Deep blue slate and moonlit feather-blue.
 # https://github.com/chrisnicholson30/dodo-theme
 
 [colors.primary]
-background = "#1b1c21"
-foreground = "#e0e2ea"
-dim_foreground = "#808599"
-bright_foreground = "#f4f5f9"
+background = "#1d222a"
+foreground = "#e0e6ed"
+dim_foreground = "#8d9aab"
+bright_foreground = "#f1f5f9"
 
 [colors.cursor]
-cursor = "#8fa6ee"
-text = "#1b1c21"
+cursor = "#96b6e0"
+text = "#1d222a"
 
 [colors.vi_mode_cursor]
-cursor = "#f0c27b"
-text = "#1b1c21"
+cursor = "#e2bf87"
+text = "#1d222a"
 
 [colors.selection]
-background = "#394056"
-text = "#e0e2ea"
+background = "#3c4859"
+text = "#e0e6ed"
 
 [colors.search.matches]
-background = "#665640"
-foreground = "#e0e2ea"
+background = "#62594b"
+foreground = "#e0e6ed"
 
 [colors.search.focused_match]
-background = "#8fa6ee"
-foreground = "#1b1c21"
+background = "#96b6e0"
+foreground = "#1d222a"
 
 [colors.footer_bar]
-background = "#16171b"
-foreground = "#e0e2ea"
+background = "#181d24"
+foreground = "#e0e6ed"
 
 [colors.hints.start]
-background = "#f0c27b"
-foreground = "#1b1c21"
+background = "#e2bf87"
+foreground = "#1d222a"
 
 [colors.hints.end]
-background = "#292b32"
-foreground = "#e0e2ea"
+background = "#2e3540"
+foreground = "#e0e6ed"
 
 [colors.normal]
-black = "#33363f"
-red = "#f07c7c"
-green = "#a2d39b"
-yellow = "#f0c27b"
-blue = "#8fa6ee"
-magenta = "#c8a6f2"
-cyan = "#6ccfc2"
-white = "#d4d7e1"
+black = "#353e4b"
+red = "#df9094"
+green = "#a7c49a"
+yellow = "#e2bf87"
+blue = "#96b6e0"
+magenta = "#bcb0db"
+cyan = "#89c5bc"
+white = "#d0dae5"
 
 [colors.bright]
-black = "#666c7f"
-red = "#f79b9b"
-green = "#bbe3b4"
-yellow = "#f7d69b"
-blue = "#adbff8"
-magenta = "#dac0f7"
-cyan = "#92e0d6"
-white = "#f4f5f9"
+black = "#8d9aab"
+red = "#eeb0b2"
+green = "#c0dbb3"
+yellow = "#efd5a6"
+blue = "#b5cef0"
+magenta = "#d2c5ea"
+cyan = "#a9ddd4"
+white = "#f1f5f9"
 
 [colors.dim]
-black = "#2b2d34"
-red = "#a55a5c"
-green = "#739370"
-yellow = "#a5885c"
-blue = "#6676a6"
-magenta = "#8b76a9"
-cyan = "#50908a"
-white = "#93969e"
+black = "#2d343f"
+red = "#9b6a6f"
+green = "#778b73"
+yellow = "#9d8866"
+blue = "#6c82a0"
+magenta = "#847e9d"
+cyan = "#638c89"
+white = "#919aa4"

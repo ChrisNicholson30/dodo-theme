@@ -17,6 +17,7 @@ from pathlib import Path
 from PIL import Image
 
 from colors import desaturate, mix, rgb, to_hex, xterm256
+from palette import DUSK
 
 ESC = "\x1b"
 
@@ -86,9 +87,9 @@ _D = ["██████╗ ", "██╔══██╗", "██║  ██�
 _O = [" ██████╗ ", "██╔═══██╗", "██║   ██║", "██║   ██║", "╚██████╔╝", " ╚═════╝ "]
 WORDMARK = [d + " " + o + " " + d + " " + o for d, o in zip(_D, _O)]
 
-# feather → ember (Claude coral) → beak gold
-STOPS = ["#8f9fca", "#d97757", "#e8b96e"]
-SHADOW = "#5f5b54"
+# Feather → lagoon → beak gold, following the house palette.
+STOPS = [DUSK.feather, DUSK.accent, DUSK.syntax["function"]]
+SHADOW = DUSK.ui["faint"]
 
 
 def _grad(t: float) -> str:

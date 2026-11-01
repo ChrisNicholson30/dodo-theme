@@ -1,26 +1,26 @@
-# Dodo Obsidian — Near-black volcanic glass, lit by a single amber ember.
+# Dodo Obsidian — Volcanic black with sand-gold highlights.
 # https://github.com/chrisnicholson30/dodo-theme
 
-palette = 0=#262624
-palette = 1=#ec7b6f
-palette = 2=#a6d6a0
-palette = 3=#f0c070
-palette = 4=#8fb0e6
-palette = 5=#cfa3e0
-palette = 6=#8ecfc5
-palette = 7=#d5d1c9
-palette = 8=#625f59
-palette = 9=#f49a90
-palette = 10=#c0e6bb
-palette = 11=#f6d391
-palette = 12=#adc6f0
-palette = 13=#e0bdec
-palette = 14=#ade0d9
-palette = 15=#f5f2eb
-background = #111111
-foreground = #e4e1da
-cursor-color = #eda157
-cursor-text = #111111
-selection-background = #4a3623
-selection-foreground = #e4e1da
-split-divider-color = #1e1e1c
+palette = 0=#2b3029
+palette = 1=#d58f87
+palette = 2=#afc49b
+palette = 3=#dcb575
+palette = 4=#9eb7d5
+palette = 5=#c1a8ce
+palette = 6=#92beb8
+palette = 7=#d0d6c7
+palette = 8=#858e80
+palette = 9=#e7aaa2
+palette = 10=#c7d8b3
+palette = 11=#ecd1a2
+palette = 12=#bacedf
+palette = 13=#d7c0df
+palette = 14=#b0d4cc
+palette = 15=#f1f4e9
+background = #141615
+foreground = #e1e4da
+cursor-color = #dcb575
+cursor-text = #141615
+selection-background = #483f2e
+selection-foreground = #e1e4da
+split-divider-color = #282d26

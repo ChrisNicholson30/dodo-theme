@@ -242,16 +242,6 @@ def gear(cx, cy, r_out, r_in, teeth, col):
     return S("M" + "L".join(pts) + "Z", col, 1.1) + circ(cx, cy, r_in * 0.42, col, fill=False, w=1.1)
 
 
-def asterisk(cx, cy, col, n=8, r1=1.3, r2=6.1, w=1.55):
-    out = ""
-    for i in range(n):
-        a = -math.pi / 2 + 2 * math.pi * i / n
-        r = r2 if i % 2 == 0 else r2 * 0.78
-        out += S(f"M{cx + r1 * math.cos(a):.2f} {cy + r1 * math.sin(a):.2f}"
-                 f"L{cx + r * math.cos(a):.2f} {cy + r * math.sin(a):.2f}", col, w)
-    return out
-
-
 def hexagon(cx, cy, r, col, w=SW):
     pts = [f"{cx + r * math.cos(math.pi / 6 + i * math.pi / 3):.2f} "
            f"{cy + r * math.sin(math.pi / 6 + i * math.pi / 3):.2f}" for i in range(6)]
@@ -402,8 +392,12 @@ def pictograms(c: dict, st: dict, accent: str, feather: str) -> dict[str, str]:
                  + '<ellipse cx="8" cy="8" rx="2.5" ry="5.9" stroke="{0}" stroke-width="1.1"/>'.format(c["sky"])
                  + S("M2.3 6h11.4M2.3 10h11.4", c["sky"], 1.1))
     p["binary"] = text_fill("01", c["gray"], 8, 8, 6.2, 11)
-    p["claude"] = asterisk(8, 8, accent)
-    p["dodo"] = asterisk(8, 8, feather)
+    p["agent"] = (S("M4.5 11.5c-1.8-2.8-.3-6.2 2.8-8.1 1.7-1 3.7-1.4 5.8-1.3.1 2.1-.3 4.1-1.3 5.8-1.9 3.1-5.3 4.6-7.3 3.6Z", accent)
+                  + S("M2.5 13.5 10.6 5.4M6.3 9.7V6.9M8.4 7.6h2.8", accent, 1.1))
+    p["dodo"] = (S("M10.8 5.7c0-1.8-1.1-3-2.7-3S5.3 4 5.3 5.8v1C3.4 7.1 2 8.4 2 10.2c0 2 1.8 3.3 4.3 3.3 3 0 5.1-1.8 5.1-4.4V7.4", feather)
+                 + S("M2.6 8.4 1.5 7.8M6.1 13.5v1M9.1 12.9v1.6M5.2 9.3c.8 1.5 2.2 2 3.6 1.1", feather, 1.1)
+                 + S("M10.7 5.5c2.1-.3 3.8.6 3.8 2.2h-3.7", c["amber"])
+                 + circ(8.9, 4.9, 0.65, feather))
     p["github"] = (circ(8, 8, 5.9, c["gray"], fill=False)
                    + S("M6.1 13.4v-1.6c0-.6.2-1 .5-1.3-1.7-.2-3-1-3-3 0-.6.2-1.2.6-1.6-.1-.3-.2-1 .1-1.7 0 0 .6-.2 1.8.6a6 6 0 0 1 3.2 0c1.2-.8 1.8-.6 1.8-.6.3.7.2 1.4.1 1.7.4.4.6 1 .6 1.6 0 2-1.3 2.8-3 3 .3.3.5.8.5 1.4v1.5", c["gray"], 1))
     p["ignore"] = doc(c["gray"]) + S("M5.4 11.9 10.9 6.4", c["gray"], 1.1)
@@ -447,13 +441,13 @@ FOLDER_GROUPS: dict[str, list[str]] = {
     "brown": ["build", "dist", "out", "bin", "obj", ".next", ".nuxt", ".output", "release", "coverage",
               "generated", "gen"],
     "yellow": ["config", ".config", "configs", "settings", ".vscode", ".zed", ".idea", "env", ".devcontainer"],
-    "sky": ["scripts", "script", "tools", "tooling", "bin-scripts", ".cargo", "ci", "hooks", ".claude-hooks"],
+    "sky": ["scripts", "script", "tools", "tooling", "bin-scripts", ".cargo", "ci", "hooks"],
     "pink": ["styles", "css", "scss", "theme", "themes", "sass"],
     "lavender": ["components", "ui", "views", "pages", "routes", "screens", "layouts", "widgets", "Views"],
     "red": ["api", "server", "services", "backend", "functions", "handlers", "middleware", "controllers"],
     "amber": ["models", "types", "schemas", "schema", "db", "database", "migrations", "prisma", "entities",
               "Model", "Models", "data"],
-    "accent": [".claude", ".dodo"],
+    "accent": [".dodo"],
 }
 
 
@@ -639,8 +633,7 @@ STEMS: dict[str, list[str]] = {
                 "COPYING.md", "UNLICENSE", "license", "license.md", "NOTICE", "AUTHORS"],
     "changelog": ["CHANGELOG", "CHANGELOG.md", "CHANGES.md", "HISTORY.md", "RELEASES.md",
                   "changelog.md", "NEWS.md"],
-    "claude": ["CLAUDE.md", "CLAUDE.local.md", "AGENTS.md", "AGENT.md", ".claude.json",
-               "claude.json", ".mcp.json", "llms.txt"],
+    "agent": ["AGENTS.md", "AGENT.md", ".mcp.json", "llms.txt"],
     "github": ["CODEOWNERS", "FUNDING.yml", "dependabot.yml", "pull_request_template.md",
                "PULL_REQUEST_TEMPLATE.md", "ISSUE_TEMPLATE.md"],
     "helm": ["Chart.yaml", "Chart.yml", "Chart.lock", "values.yaml", "values.yml", "helmfile.yaml",

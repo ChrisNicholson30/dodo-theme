@@ -395,10 +395,6 @@
           "collapsed": "./icons/dusk/folder_sky.svg",
           "expanded": "./icons/dusk/folder_sky_open.svg"
         },
-        ".claude-hooks": {
-          "collapsed": "./icons/dusk/folder_sky.svg",
-          "expanded": "./icons/dusk/folder_sky_open.svg"
-        },
         "styles": {
           "collapsed": "./icons/dusk/folder_pink.svg",
           "expanded": "./icons/dusk/folder_pink_open.svg"
@@ -539,10 +535,6 @@
           "collapsed": "./icons/dusk/folder_amber.svg",
           "expanded": "./icons/dusk/folder_amber_open.svg"
         },
-        ".claude": {
-          "collapsed": "./icons/dusk/folder_accent.svg",
-          "expanded": "./icons/dusk/folder_accent_open.svg"
-        },
         ".dodo": {
           "collapsed": "./icons/dusk/folder_accent.svg",
           "expanded": "./icons/dusk/folder_accent_open.svg"
@@ -614,14 +606,10 @@
         "RELEASES.md": "changelog",
         "changelog.md": "changelog",
         "NEWS.md": "changelog",
-        "CLAUDE.md": "claude",
-        "CLAUDE.local.md": "claude",
-        "AGENTS.md": "claude",
-        "AGENT.md": "claude",
-        ".claude.json": "claude",
-        "claude.json": "claude",
-        ".mcp.json": "claude",
-        "llms.txt": "claude",
+        "AGENTS.md": "agent",
+        "AGENT.md": "agent",
+        ".mcp.json": "agent",
+        "llms.txt": "agent",
         "CODEOWNERS": "github",
         "FUNDING.yml": "github",
         "dependabot.yml": "github",
@@ -1245,6 +1233,9 @@
         "pnpm-workspace.yaml": "node"
       },
       "file_icons": {
+        "agent": {
+          "path": "./icons/dusk/agent.svg"
+        },
         "archive": {
           "path": "./icons/dusk/archive.svg"
         },
@@ -1280,9 +1271,6 @@
         },
         "changelog": {
           "path": "./icons/dusk/changelog.svg"
-        },
-        "claude": {
-          "path": "./icons/dusk/claude.svg"
         },
         "clojure": {
           "path": "./icons/dusk/clojure.svg"
@@ -2047,10 +2035,6 @@
           "collapsed": "./icons/night/folder_sky.svg",
           "expanded": "./icons/night/folder_sky_open.svg"
         },
-        ".claude-hooks": {
-          "collapsed": "./icons/night/folder_sky.svg",
-          "expanded": "./icons/night/folder_sky_open.svg"
-        },
         "styles": {
           "collapsed": "./icons/night/folder_pink.svg",
           "expanded": "./icons/night/folder_pink_open.svg"
@@ -2191,10 +2175,6 @@
           "collapsed": "./icons/night/folder_amber.svg",
           "expanded": "./icons/night/folder_amber_open.svg"
         },
-        ".claude": {
-          "collapsed": "./icons/night/folder_accent.svg",
-          "expanded": "./icons/night/folder_accent_open.svg"
-        },
         ".dodo": {
           "collapsed": "./icons/night/folder_accent.svg",
           "expanded": "./icons/night/folder_accent_open.svg"
@@ -2266,14 +2246,10 @@
         "RELEASES.md": "changelog",
         "changelog.md": "changelog",
         "NEWS.md": "changelog",
-        "CLAUDE.md": "claude",
-        "CLAUDE.local.md": "claude",
-        "AGENTS.md": "claude",
-        "AGENT.md": "claude",
-        ".claude.json": "claude",
-        "claude.json": "claude",
-        ".mcp.json": "claude",
-        "llms.txt": "claude",
+        "AGENTS.md": "agent",
+        "AGENT.md": "agent",
+        ".mcp.json": "agent",
+        "llms.txt": "agent",
         "CODEOWNERS": "github",
         "FUNDING.yml": "github",
         "dependabot.yml": "github",
@@ -2897,6 +2873,9 @@
         "pnpm-workspace.yaml": "node"
       },
       "file_icons": {
+        "agent": {
+          "path": "./icons/night/agent.svg"
+        },
         "archive": {
           "path": "./icons/night/archive.svg"
         },
@@ -2932,9 +2911,6 @@
         },
         "changelog": {
           "path": "./icons/night/changelog.svg"
-        },
-        "claude": {
-          "path": "./icons/night/claude.svg"
         },
         "clojure": {
           "path": "./icons/night/clojure.svg"
@@ -3699,10 +3675,6 @@
           "collapsed": "./icons/obsidian/folder_sky.svg",
           "expanded": "./icons/obsidian/folder_sky_open.svg"
         },
-        ".claude-hooks": {
-          "collapsed": "./icons/obsidian/folder_sky.svg",
-          "expanded": "./icons/obsidian/folder_sky_open.svg"
-        },
         "styles": {
           "collapsed": "./icons/obsidian/folder_pink.svg",
           "expanded": "./icons/obsidian/folder_pink_open.svg"
@@ -3843,10 +3815,6 @@
           "collapsed": "./icons/obsidian/folder_amber.svg",
           "expanded": "./icons/obsidian/folder_amber_open.svg"
         },
-        ".claude": {
-          "collapsed": "./icons/obsidian/folder_accent.svg",
-          "expanded": "./icons/obsidian/folder_accent_open.svg"
-        },
         ".dodo": {
           "collapsed": "./icons/obsidian/folder_accent.svg",
           "expanded": "./icons/obsidian/folder_accent_open.svg"
@@ -3918,14 +3886,10 @@
         "RELEASES.md": "changelog",
         "changelog.md": "changelog",
         "NEWS.md": "changelog",
-        "CLAUDE.md": "claude",
-        "CLAUDE.local.md": "claude",
-        "AGENTS.md": "claude",
-        "AGENT.md": "claude",
-        ".claude.json": "claude",
-        "claude.json": "claude",
-        ".mcp.json": "claude",
-        "llms.txt": "claude",
+        "AGENTS.md": "agent",
+        "AGENT.md": "agent",
+        ".mcp.json": "agent",
+        "llms.txt": "agent",
         "CODEOWNERS": "github",
         "FUNDING.yml": "github",
         "dependabot.yml": "github",
@@ -4549,6 +4513,9 @@
         "pnpm-workspace.yaml": "node"
       },
       "file_icons": {
+        "agent": {
+          "path": "./icons/obsidian/agent.svg"
+        },
         "archive": {
           "path": "./icons/obsidian/archive.svg"
         },
@@ -4584,9 +4551,6 @@
         },
         "changelog": {
           "path": "./icons/obsidian/changelog.svg"
-        },
-        "claude": {
-          "path": "./icons/obsidian/claude.svg"
         },
         "clojure": {
           "path": "./icons/obsidian/clojure.svg"
@@ -5351,10 +5315,6 @@
           "collapsed": "./icons/dawn/folder_sky.svg",
           "expanded": "./icons/dawn/folder_sky_open.svg"
         },
-        ".claude-hooks": {
-          "collapsed": "./icons/dawn/folder_sky.svg",
-          "expanded": "./icons/dawn/folder_sky_open.svg"
-        },
         "styles": {
           "collapsed": "./icons/dawn/folder_pink.svg",
           "expanded": "./icons/dawn/folder_pink_open.svg"
@@ -5495,10 +5455,6 @@
           "collapsed": "./icons/dawn/folder_amber.svg",
           "expanded": "./icons/dawn/folder_amber_open.svg"
         },
-        ".claude": {
-          "collapsed": "./icons/dawn/folder_accent.svg",
-          "expanded": "./icons/dawn/folder_accent_open.svg"
-        },
         ".dodo": {
           "collapsed": "./icons/dawn/folder_accent.svg",
           "expanded": "./icons/dawn/folder_accent_open.svg"
@@ -5570,14 +5526,10 @@
         "RELEASES.md": "changelog",
         "changelog.md": "changelog",
         "NEWS.md": "changelog",
-        "CLAUDE.md": "claude",
-        "CLAUDE.local.md": "claude",
-        "AGENTS.md": "claude",
-        "AGENT.md": "claude",
-        ".claude.json": "claude",
-        "claude.json": "claude",
-        ".mcp.json": "claude",
-        "llms.txt": "claude",
+        "AGENTS.md": "agent",
+        "AGENT.md": "agent",
+        ".mcp.json": "agent",
+        "llms.txt": "agent",
         "CODEOWNERS": "github",
         "FUNDING.yml": "github",
         "dependabot.yml": "github",
@@ -6201,6 +6153,9 @@
         "pnpm-workspace.yaml": "node"
       },
       "file_icons": {
+        "agent": {
+          "path": "./icons/dawn/agent.svg"
+        },
         "archive": {
           "path": "./icons/dawn/archive.svg"
         },
@@ -6236,9 +6191,6 @@
         },
         "changelog": {
           "path": "./icons/dawn/changelog.svg"
-        },
-        "claude": {
-          "path": "./icons/dawn/claude.svg"
         },
         "clojure": {
           "path": "./icons/dawn/clojure.svg"
@@ -7003,10 +6955,6 @@
           "collapsed": "./icons/mist/folder_sky.svg",
           "expanded": "./icons/mist/folder_sky_open.svg"
         },
-        ".claude-hooks": {
-          "collapsed": "./icons/mist/folder_sky.svg",
-          "expanded": "./icons/mist/folder_sky_open.svg"
-        },
         "styles": {
           "collapsed": "./icons/mist/folder_pink.svg",
           "expanded": "./icons/mist/folder_pink_open.svg"
@@ -7147,10 +7095,6 @@
           "collapsed": "./icons/mist/folder_amber.svg",
           "expanded": "./icons/mist/folder_amber_open.svg"
         },
-        ".claude": {
-          "collapsed": "./icons/mist/folder_accent.svg",
-          "expanded": "./icons/mist/folder_accent_open.svg"
-        },
         ".dodo": {
           "collapsed": "./icons/mist/folder_accent.svg",
           "expanded": "./icons/mist/folder_accent_open.svg"
@@ -7222,14 +7166,10 @@
         "RELEASES.md": "changelog",
         "changelog.md": "changelog",
         "NEWS.md": "changelog",
-        "CLAUDE.md": "claude",
-        "CLAUDE.local.md": "claude",
-        "AGENTS.md": "claude",
-        "AGENT.md": "claude",
-        ".claude.json": "claude",
-        "claude.json": "claude",
-        ".mcp.json": "claude",
-        "llms.txt": "claude",
+        "AGENTS.md": "agent",
+        "AGENT.md": "agent",
+        ".mcp.json": "agent",
+        "llms.txt": "agent",
         "CODEOWNERS": "github",
         "FUNDING.yml": "github",
         "dependabot.yml": "github",
@@ -7853,6 +7793,9 @@
         "pnpm-workspace.yaml": "node"
       },
       "file_icons": {
+        "agent": {
+          "path": "./icons/mist/agent.svg"
+        },
         "archive": {
           "path": "./icons/mist/archive.svg"
         },
@@ -7888,9 +7831,6 @@
         },
         "changelog": {
           "path": "./icons/mist/changelog.svg"
-        },
-        "claude": {
-          "path": "./icons/mist/claude.svg"
         },
         "clojure": {
           "path": "./icons/mist/clojure.svg"

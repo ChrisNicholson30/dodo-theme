@@ -1,41 +1,41 @@
-# Dodo Dawn — Ivory paper and terracotta at first light.
+# Dodo Dawn — Pale limestone and olive ink at first light.
 [colors]
-foreground = "#2a2925"
-background = "#faf9f5"
-cursor_bg = "#c15f3c"
-cursor_fg = "#faf9f5"
-cursor_border = "#c15f3c"
-selection_fg = "#2a2925"
-selection_bg = "#efdad0"
-scrollbar_thumb = "#ebe8df"
-split = "#e0dccf"
-compose_cursor = "#9a6408"
-ansi = ["#3a3833", "#c4392b", "#4b7a29", "#9a6408", "#3d5ca8", "#8447be", "#1c7a6e", "#cfcabd"]
-brights = ["#7a766c", "#d9573f", "#5f9636", "#b97f16", "#5376c4", "#9e62d6", "#2b978a", "#e9e5da"]
+foreground = "#2c3029"
+background = "#f6f4ed"
+cursor_bg = "#5e7447"
+cursor_fg = "#f6f4ed"
+cursor_border = "#5e7447"
+selection_fg = "#2c3029"
+selection_bg = "#d8dacc"
+scrollbar_thumb = "#e7e8dc"
+split = "#d4d9c8"
+compose_cursor = "#8d681e"
+ansi = ["#353d30", "#b54e43", "#537341", "#8d681e", "#4e6792", "#815e9e", "#347479", "#cbd0bf"]
+brights = ["#687160", "#bd5549", "#5a7948", "#906d22", "#547197", "#8b669e", "#3b7b79", "#e8ebdf"]
 
 [colors.tab_bar]
-background = "#ebe8df"
-inactive_tab_edge = "#e0dccf"
+background = "#e5e3da"
+inactive_tab_edge = "#d4d9c8"
 
 [colors.tab_bar.active_tab]
-bg_color = "#faf9f5"
-fg_color = "#2a2925"
+bg_color = "#f6f4ed"
+fg_color = "#2c3029"
 
 [colors.tab_bar.inactive_tab]
-bg_color = "#f3f1ea"
-fg_color = "#7a766c"
+bg_color = "#eeece3"
+fg_color = "#687160"
 
 [colors.tab_bar.inactive_tab_hover]
-bg_color = "#ebe8df"
-fg_color = "#2a2925"
+bg_color = "#e7e8dc"
+fg_color = "#2c3029"
 
 [colors.tab_bar.new_tab]
-bg_color = "#ebe8df"
-fg_color = "#7a766c"
+bg_color = "#e5e3da"
+fg_color = "#687160"
 
 [colors.tab_bar.new_tab_hover]
-bg_color = "#ebe8df"
-fg_color = "#2a2925"
+bg_color = "#e7e8dc"
+fg_color = "#2c3029"
 
 [metadata]
 name = "Dodo Dawn"

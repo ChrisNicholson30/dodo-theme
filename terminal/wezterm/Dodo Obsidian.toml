@@ -1,41 +1,41 @@
-# Dodo Obsidian — Near-black volcanic glass, lit by a single amber ember.
+# Dodo Obsidian — Volcanic black with sand-gold highlights.
 [colors]
-foreground = "#e4e1da"
-background = "#111111"
-cursor_bg = "#eda157"
-cursor_fg = "#111111"
-cursor_border = "#eda157"
-selection_fg = "#e4e1da"
-selection_bg = "#4a3623"
-scrollbar_thumb = "#201f1e"
-split = "#1e1e1c"
-compose_cursor = "#f2d8a7"
-ansi = ["#262624", "#ec7b6f", "#a6d6a0", "#f0c070", "#8fb0e6", "#cfa3e0", "#8ecfc5", "#d5d1c9"]
-brights = ["#625f59", "#f49a90", "#c0e6bb", "#f6d391", "#adc6f0", "#e0bdec", "#ade0d9", "#f5f2eb"]
+foreground = "#e1e4da"
+background = "#141615"
+cursor_bg = "#dcb575"
+cursor_fg = "#141615"
+cursor_border = "#dcb575"
+selection_fg = "#e1e4da"
+selection_bg = "#483f2e"
+scrollbar_thumb = "#242823"
+split = "#282d26"
+compose_cursor = "#e5d2aa"
+ansi = ["#2b3029", "#d58f87", "#afc49b", "#dcb575", "#9eb7d5", "#c1a8ce", "#92beb8", "#d0d6c7"]
+brights = ["#858e80", "#e7aaa2", "#c7d8b3", "#ecd1a2", "#bacedf", "#d7c0df", "#b0d4cc", "#f1f4e9"]
 
 [colors.tab_bar]
-background = "#080808"
-inactive_tab_edge = "#1e1e1c"
+background = "#090b0a"
+inactive_tab_edge = "#282d26"
 
 [colors.tab_bar.active_tab]
-bg_color = "#111111"
-fg_color = "#e4e1da"
+bg_color = "#141615"
+fg_color = "#e1e4da"
 
 [colors.tab_bar.inactive_tab]
-bg_color = "#0c0c0c"
-fg_color = "#78756e"
+bg_color = "#0e100f"
+fg_color = "#858e80"
 
 [colors.tab_bar.inactive_tab_hover]
-bg_color = "#201f1e"
-fg_color = "#e4e1da"
+bg_color = "#242823"
+fg_color = "#e1e4da"
 
 [colors.tab_bar.new_tab]
-bg_color = "#080808"
-fg_color = "#78756e"
+bg_color = "#090b0a"
+fg_color = "#858e80"
 
 [colors.tab_bar.new_tab_hover]
-bg_color = "#201f1e"
-fg_color = "#e4e1da"
+bg_color = "#242823"
+fg_color = "#e1e4da"
 
 [metadata]
 name = "Dodo Obsidian"

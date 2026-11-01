@@ -1,41 +1,41 @@
-# Dodo Dusk — Warm charcoal & Claude coral — the original.
+# Dodo Dusk — Warm graphite and lagoon teal as the island settles.
 [colors]
-foreground = "#ebe7de"
-background = "#262624"
-cursor_bg = "#d97757"
-cursor_fg = "#262624"
-cursor_border = "#d97757"
-selection_fg = "#ebe7de"
-selection_bg = "#553b31"
-scrollbar_thumb = "#343330"
-split = "#33322f"
-compose_cursor = "#e8b96e"
-ansi = ["#3b3a36", "#e57a6c", "#a9c58b", "#e8b96e", "#93a8e6", "#c5a3ea", "#7ec6b7", "#d9d4c9"]
-brights = ["#706b62", "#f0948a", "#bfd8a3", "#f3cd8d", "#afc0f2", "#d8bdf3", "#9edbcf", "#f6f3ec"]
+foreground = "#e4e7de"
+background = "#272b29"
+cursor_bg = "#83b8a6"
+cursor_fg = "#272b29"
+cursor_border = "#83b8a6"
+selection_fg = "#e4e7de"
+selection_bg = "#3f504a"
+scrollbar_thumb = "#373c37"
+split = "#3a403a"
+compose_cursor = "#dfbd82"
+ansi = ["#3a413b", "#db8b83", "#b5c98d", "#dfbd82", "#96b4dd", "#c5acd9", "#83b8a6", "#cfd6cb"]
+brights = ["#929d90", "#eba59c", "#cadba8", "#efd3a0", "#b2caec", "#dac3e8", "#a3d0bf", "#f2f4ec"]
 
 [colors.tab_bar]
-background = "#1a1918"
-inactive_tab_edge = "#33322f"
+background = "#1a1d1c"
+inactive_tab_edge = "#3a403a"
 
 [colors.tab_bar.active_tab]
-bg_color = "#262624"
-fg_color = "#ebe7de"
+bg_color = "#272b29"
+fg_color = "#e4e7de"
 
 [colors.tab_bar.inactive_tab]
-bg_color = "#1f1e1d"
-fg_color = "#8c877c"
+bg_color = "#202321"
+fg_color = "#929d90"
 
 [colors.tab_bar.inactive_tab_hover]
-bg_color = "#343330"
-fg_color = "#ebe7de"
+bg_color = "#373c37"
+fg_color = "#e4e7de"
 
 [colors.tab_bar.new_tab]
-bg_color = "#1a1918"
-fg_color = "#8c877c"
+bg_color = "#1a1d1c"
+fg_color = "#929d90"
 
 [colors.tab_bar.new_tab_hover]
-bg_color = "#343330"
-fg_color = "#ebe7de"
+bg_color = "#373c37"
+fg_color = "#e4e7de"
 
 [metadata]
 name = "Dodo Dusk"

@@ -1,41 +1,41 @@
-# Dodo Night — Cool slate plumage after sundown.
+# Dodo Night — Deep blue slate and moonlit feather-blue.
 [colors]
-foreground = "#e0e2ea"
-background = "#1b1c21"
-cursor_bg = "#8fa6ee"
-cursor_fg = "#1b1c21"
-cursor_border = "#8fa6ee"
-selection_fg = "#e0e2ea"
-selection_bg = "#394056"
-scrollbar_thumb = "#292b32"
-split = "#2a2c33"
-compose_cursor = "#f0c27b"
-ansi = ["#33363f", "#f07c7c", "#a2d39b", "#f0c27b", "#8fa6ee", "#c8a6f2", "#6ccfc2", "#d4d7e1"]
-brights = ["#666c7f", "#f79b9b", "#bbe3b4", "#f7d69b", "#adbff8", "#dac0f7", "#92e0d6", "#f4f5f9"]
+foreground = "#e0e6ed"
+background = "#1d222a"
+cursor_bg = "#96b6e0"
+cursor_fg = "#1d222a"
+cursor_border = "#96b6e0"
+selection_fg = "#e0e6ed"
+selection_bg = "#3c4859"
+scrollbar_thumb = "#2e3540"
+split = "#323b48"
+compose_cursor = "#e2bf87"
+ansi = ["#353e4b", "#df9094", "#a7c49a", "#e2bf87", "#96b6e0", "#bcb0db", "#89c5bc", "#d0dae5"]
+brights = ["#8d9aab", "#eeb0b2", "#c0dbb3", "#efd5a6", "#b5cef0", "#d2c5ea", "#a9ddd4", "#f1f5f9"]
 
 [colors.tab_bar]
-background = "#121316"
-inactive_tab_edge = "#2a2c33"
+background = "#13171d"
+inactive_tab_edge = "#323b48"
 
 [colors.tab_bar.active_tab]
-bg_color = "#1b1c21"
-fg_color = "#e0e2ea"
+bg_color = "#1d222a"
+fg_color = "#e0e6ed"
 
 [colors.tab_bar.inactive_tab]
-bg_color = "#16171b"
-fg_color = "#808599"
+bg_color = "#181d24"
+fg_color = "#8d9aab"
 
 [colors.tab_bar.inactive_tab_hover]
-bg_color = "#292b32"
-fg_color = "#e0e2ea"
+bg_color = "#2e3540"
+fg_color = "#e0e6ed"
 
 [colors.tab_bar.new_tab]
-bg_color = "#121316"
-fg_color = "#808599"
+bg_color = "#13171d"
+fg_color = "#8d9aab"
 
 [colors.tab_bar.new_tab_hover]
-bg_color = "#292b32"
-fg_color = "#e0e2ea"
+bg_color = "#2e3540"
+fg_color = "#e0e6ed"
 
 [metadata]
 name = "Dodo Night"

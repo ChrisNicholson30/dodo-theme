@@ -1,26 +1,26 @@
-# Dodo Dusk — Warm charcoal & Claude coral — the original.
+# Dodo Dusk — Warm graphite and lagoon teal as the island settles.
 # https://github.com/chrisnicholson30/dodo-theme
 
-palette = 0=#3b3a36
-palette = 1=#e57a6c
-palette = 2=#a9c58b
-palette = 3=#e8b96e
-palette = 4=#93a8e6
-palette = 5=#c5a3ea
-palette = 6=#7ec6b7
-palette = 7=#d9d4c9
-palette = 8=#706b62
-palette = 9=#f0948a
-palette = 10=#bfd8a3
-palette = 11=#f3cd8d
-palette = 12=#afc0f2
-palette = 13=#d8bdf3
-palette = 14=#9edbcf
-palette = 15=#f6f3ec
-background = #262624
-foreground = #ebe7de
-cursor-color = #d97757
-cursor-text = #262624
-selection-background = #553b31
-selection-foreground = #ebe7de
-split-divider-color = #33322f
+palette = 0=#3a413b
+palette = 1=#db8b83
+palette = 2=#b5c98d
+palette = 3=#dfbd82
+palette = 4=#96b4dd
+palette = 5=#c5acd9
+palette = 6=#83b8a6
+palette = 7=#cfd6cb
+palette = 8=#929d90
+palette = 9=#eba59c
+palette = 10=#cadba8
+palette = 11=#efd3a0
+palette = 12=#b2caec
+palette = 13=#dac3e8
+palette = 14=#a3d0bf
+palette = 15=#f2f4ec
+background = #272b29
+foreground = #e4e7de
+cursor-color = #83b8a6
+cursor-text = #272b29
+selection-background = #3f504a
+selection-foreground = #e4e7de
+split-divider-color = #3a403a

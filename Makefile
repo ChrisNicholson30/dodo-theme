@@ -7,7 +7,7 @@ check:      ## Build + WCAG contrast report
 	python3 src/build.py --check
 
 previews:   ## Re-render README screenshots (needs pygments + playwright)
-	python3 src/preview.py && node src/shoot.cjs zed icons
+	python3 src/preview.py && node src/shoot.cjs
 
 lint:       ## Shellcheck the scripts
 	shellcheck -x -s bash install.sh update.sh uninstall.sh lib/dodo.sh
