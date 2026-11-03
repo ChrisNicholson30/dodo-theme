@@ -2,13 +2,8 @@
 
 ## Unreleased
 
-- Refresh the five palettes around Dodo's island colours: lagoon teal,
-  feather blue, sand gold, olive and sea fog, with clearer comments and
-  punctuation in both light and dark variants.
-- Give agent instruction files a feather icon and Dodo config files a bird
-  icon; remove vendor-specific branding, icons and palette references.
-- Match the installer, terminal wordmark, editor previews and native themes
-  to the refreshed palettes.
+- Restore the original five palettes across editors and terminals.
+- Keep blinking block cursors in Terminal.app and the Dodo and agent icons.
 
 ## 1.0.0
 

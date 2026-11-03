@@ -280,7 +280,7 @@ section p{font-size:13px;line-height:1.6;min-height:64px;margin-top:10px}.swatch
 border-radius:4px;box-shadow:inset 0 0 0 1px #88888844}.swatch code{margin-left:auto;font-size:11px}
 pre{font:10px/1.9 "SFMono-Regular",monospace;white-space:pre-wrap;overflow-wrap:anywhere}
 </style></head><body><header><img src="../dodo.png" alt="Dodo"><div><h1>The island palette</h1>
-<p>Five quiet canvases. Lagoon teal, feather blue, sand gold, olive and sea fog.</p></div></header>
+<p>Five quiet canvases. Coral, feather blue, amber, terracotta and sea fog.</p></div></header>
 <div class="cards">''' + "".join(cards) + "</div></body></html>"
 
 

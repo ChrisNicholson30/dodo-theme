@@ -15,26 +15,15 @@
 
 ---
 
-## What's new
+## The original flock
 
-Dodo's refreshed palettes take their identity from its bird and island:
-lagoon teal, feather blue, sand gold, olive and sea fog.
+The original five palettes are back across Zed, terminal apps and Xcode.
+Terminal.app profiles retain their blinking block cursors. The matching file
+icons include a feather for agent instruction files and a bird for Dodo
+configuration files.
 
-- **Five refreshed palettes** across Zed, all seven terminal apps and
-  Xcode, with softer syntax colours and clearer comments and punctuation.
-- **Original file icons**: a feather for `AGENTS.md`, `AGENT.md`,
-  `.mcp.json` and `llms.txt`, and a small bird for Dodo config files.
-  Vendor-specific branding and icon treatments have been removed.
-- **Blinking block cursors** in all five Terminal.app profiles, coloured
-  with each variant's own accent.
-- **Checked readability**: foreground text exceeds 11:1 contrast and every
-  syntax colour reaches 4.5:1 against its editor canvas, including comments.
-- **Fresh previews and installer colours**, including the palette overview
-  below and a feather-blue → lagoon-teal → gold terminal wordmark.
-
-Already using Dodo? [Run the updater](#update) to bring the refreshed themes
-into your installed apps. See [the changelog](CHANGELOG.md) for the update
-history.
+Already using Dodo? [Run the updater](#update) to refresh your installed
+themes. See [the changelog](CHANGELOG.md) for the update history.
 
 ## The flock
 
@@ -45,11 +34,11 @@ family resemblance but aren't just the same theme at different brightness.
 
 | | Variant | Mood | Accent | Canvas |
 |---|---|---|---|---|
-| 🌆 | **Dodo Dusk** | Warm graphite as the island settles | lagoon teal `#83b8a6` | `#272b29` |
-| 🌌 | **Dodo Night** | Deep blue slate after sundown | feather blue `#96b6e0` | `#1d222a` |
-| 🌋 | **Dodo Obsidian** | Volcanic black with quiet mineral hues | sand gold `#dcb575` | `#141615` |
-| 🌅 | **Dodo Dawn** | Pale limestone and olive ink at first light | canopy olive `#5e7447` | `#f6f4ed` |
-| 🌫️ | **Dodo Mist** | Sea-fog grey with coastal ink | blue-grey `#4b7088` | `#f2f5f6` |
+| 🌆 | **Dodo Dusk** | Warm charcoal and coral | coral `#d97757` | `#262624` |
+| 🌌 | **Dodo Night** | Cool slate plumage after sundown | feather periwinkle `#8fa6ee` | `#1b1c21` |
+| 🌋 | **Dodo Obsidian** | Near-black with amber highlights | beak amber `#eda157` | `#111111` |
+| 🌅 | **Dodo Dawn** | Ivory paper and terracotta | terracotta `#c15f3c` | `#faf9f5` |
+| 🌫️ | **Dodo Mist** | Cool sea-fog grey | slate blue `#4d63b3` | `#f7f8fa` |
 
 <p align="center"><img src="assets/previews/palettes.png" alt="The five Dodo palettes, with colour swatches and code samples"></p>
 
@@ -72,9 +61,9 @@ These are Zed-style previews rendered from the generated themes and icons.
 |---|---|
 | slate-blue **feathers** | folders, properties, links |
 | honey-gold **beak** | functions, in every variant |
-| Mauritius **lagoon** teal | Dusk's cursor and keywords; types in other variants |
+| Mauritius **lagoon** teal | types |
 | cream **belly** | the foreground text |
-| island **canopy** olive | Dawn's cursor and keywords; foliage greens for strings |
+| **ember** coral | Dusk cursor and keywords |
 | cinnamon **eye** | parameters (in italics) |
 
 ## What's inside
@@ -100,7 +89,7 @@ Ideas borrowed from the best themes around, then adapted:
 - **Italics with a purpose** (from Catppuccin). Comments, parameters, `self`/`this`,
   control flow (`return`, `await`, `if`, `import`) and built-in types are
   italic. Plain keywords are not.
-- **Restrained highlights** (from Vesper). Obsidian pairs sand-gold keywords
+- **Restrained highlights** (from Vesper). Obsidian pairs amber keywords
   with wheat-coloured functions and softer mineral colours for the rest.
 - **Layered mineral surfaces**. The title bar and status bar sit darkest,
   then panels, then the editor, with popovers floating just above it.
@@ -108,10 +97,8 @@ Ideas borrowed from the best themes around, then adapted:
   rainbow-bracket accents, vim/helix mode pills, diff hunks, conflict
   markers, collaborator cursors, inlay hints in a soft pill,
   and translucent scrollbars and minimap.
-- **Checked contrast**: body text is at least 11:1 on every variant, and
-  syntax colours, including comments and punctuation, reach 4.5:1 against
-  the editor canvas. Each build prints a WCAG report
-  (`python3 src/build.py --check`).
+- **Contrast report**: each build prints foreground, comment and syntax
+  contrast against the editor background (`python3 src/build.py --check`).
 - **Icons that vary a little per theme**: language badges are tinted
   rounded squares (the radius and fill weight change per variant). Folders
   are feather-blue with a small tab in the variant's accent colour. Obsidian

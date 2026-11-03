@@ -1,70 +1,70 @@
-# Dodo Mist — Sea-fog grey with blue-grey coastal ink.
+# Dodo Mist — Cool sea-fog grey with slate-feather ink.
 # https://github.com/chrisnicholson30/dodo-theme
 
 [colors.primary]
-background = "#f2f5f6"
-foreground = "#29323a"
-dim_foreground = "#65717b"
-bright_foreground = "#e5edf0"
+background = "#f7f8fa"
+foreground = "#23262e"
+dim_foreground = "#6e7486"
+bright_foreground = "#eceef2"
 
 [colors.cursor]
-cursor = "#4b7088"
-text = "#f2f5f6"
+cursor = "#4d63b3"
+text = "#f7f8fa"
 
 [colors.vi_mode_cursor]
-cursor = "#966627"
-text = "#f2f5f6"
+cursor = "#a85a0e"
+text = "#f7f8fa"
 
 [colors.selection]
-background = "#d1dae0"
-text = "#29323a"
+background = "#d5daec"
+text = "#23262e"
 
 [colors.search.matches]
-background = "#d2c3ae"
-foreground = "#29323a"
+background = "#dbc1a7"
+foreground = "#23262e"
 
 [colors.search.focused_match]
-background = "#4b7088"
-foreground = "#f2f5f6"
+background = "#4d63b3"
+foreground = "#f7f8fa"
 
 [colors.footer_bar]
-background = "#e9eff0"
-foreground = "#29323a"
+background = "#eef0f3"
+foreground = "#23262e"
 
 [colors.hints.start]
-background = "#966627"
-foreground = "#f2f5f6"
+background = "#a85a0e"
+foreground = "#f7f8fa"
 
 [colors.hints.end]
-background = "#e1e9ec"
-foreground = "#29323a"
+background = "#e8ebef"
+foreground = "#23262e"
 
 [colors.normal]
-black = "#303e48"
-red = "#b44f51"
-green = "#47734e"
-yellow = "#966627"
-blue = "#4b7088"
-magenta = "#835d9d"
-cyan = "#2a7775"
-white = "#c7d3d9"
+black = "#2e323c"
+red = "#c23a3a"
+green = "#367a42"
+yellow = "#9c620c"
+blue = "#4a59c2"
+magenta = "#8445b5"
+cyan = "#0f7882"
+white = "#cfd3db"
 
 [colors.bright]
-black = "#65717b"
-red = "#ba5559"
-green = "#4f7a56"
-yellow = "#977027"
-blue = "#53778e"
-magenta = "#8c659e"
-cyan = "#317e7b"
-white = "#e5edf0"
+black = "#6e7486"
+red = "#d65252"
+green = "#469656"
+yellow = "#bb7f1a"
+blue = "#6375d6"
+magenta = "#a061cf"
+cyan = "#1b96a1"
+white = "#eceef2"
 
 [colors.dim]
-black = "#747e85"
-red = "#ca898b"
-green = "#83a089"
-yellow = "#b6986f"
-blue = "#859fae"
-magenta = "#aa92bc"
-cyan = "#70a3a2"
-white = "#d6dfe3"
+black = "#74777e"
+red = "#d57c7d"
+green = "#7aa682"
+yellow = "#bc965f"
+blue = "#8791d6"
+magenta = "#ac84cd"
+cyan = "#60a5ac"
+white = "#dde0e6"
